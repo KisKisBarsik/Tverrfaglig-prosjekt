@@ -13,11 +13,11 @@ Dette er en nettside laget som en del av en tverrfaglig prosjekt i 1IMA. Nettsid
 
 | Dato       | Ukedag   | Hva jeg jobbet med                                     | Ferdigstilt/Innhold             |
 |------------|----------|--------------------------------------------------------|----------------------------------|
-| 23. mai    | Fredag   | << I dag jeg har laget planen til prosjekt, etter jeg har laget planen jeg valgt farger for nettside og til sist jeg har laget struktur til alle nødvendige nettsider >>              | << Det jeg har gjort ferdig i dag: laget planen, valgt farger for nettside, laget strukturen for nettsider >> |
-| 26. mai    | Mandag   | << I dag jeg har samlet et stor del av det jeg har lært i teknologi forståelse og programmering, fylt opp to allerede laget nettsider og settet in bilder som jeg har valgt.>>                      | << Det jeg har gjort ferdige i dag: laget to presentasjonsider og gjort ferdige forside >> |
-| 28. mai    | Onsdag   | << I dag jeg har samlet et stor del av det jeg har lært i media og YFF, fylt opp to allerede laget nettsider og settet in bilder som jeg har valgt. >>                          | << Det jeg har gjort ferdige i dag: laget to presentasjonsider til >> |
-| 30. mai    | Fredag   | << I dag jeg har laget et nettside til om min biografi og lagt til multi bildet system >>  | << Det jeg har gjort ferdige i dag: laget biografi nettside og laget multi bildet system >> |
-| 2. juni    | Mandag   | << I dag jeg har gjort media query for alle nettsider og fikset flere bugs med multi bildet system >>                               | << Det jeg har gjort ferdige i dag: media query og fikset bugs >> |
+| 23. mai    | Fredag   | << I dag jeg har laget planen til prosjekt, etter jeg har laget planen jeg valgt farger for nettside og til sist jeg har laget struktur til alle nødvendige nettsider >>              | << Det jeg har gjort ferdig i dag er: laget planen, valgt farger for nettside, laget strukturen for nettsider >> |
+| 26. mai    | Mandag   | << I dag jeg har samlet et stor del av det jeg har lært i teknologi forståelse og programmering, fylt opp to allerede laget nettsider og settet in bilder som jeg har valgt.>>                      | << Det jeg har gjort ferdige i dag er: laget to presentasjonsider og gjort ferdige forside >> |
+| 28. mai    | Onsdag   | << I dag jeg har samlet et stor del av det jeg har lært i media og YFF, fylt opp to allerede laget nettsider og settet in bilder som jeg har valgt. >>                          | << Det jeg har gjort ferdige i dag er: laget to presentasjonsider til >> |
+| 30. mai    | Fredag   | << I dag jeg har laget et nettside til om min biografi og lagt til multi bildet system >>  | << Det jeg har gjort ferdige i dag er: laget biografi nettside og laget multi bildet system >> |
+| 2. juni    | Mandag   | << I dag jeg har gjort media query for alle nettsider og fikset flere bugs med multi bildet system >>                               | << Det jeg har gjort ferdige i dag er: media query og fikset bugs >> |
 | 4. juni    | Onsdag   | <<  >>                       | <<  >> |
 
 ---
@@ -60,7 +60,7 @@ Dette er en nettside laget som en del av en tverrfaglig prosjekt i 1IMA. Nettsid
   << Jeg er veldige fornøyd med design på presentasjonsider, søk systemet og biografinettside >>
 
 - **Hva kunne vært bedre?**  
-  << Det kunne bli bedre med å ha inn kontaktnettside på prosjektet, få piller opp med inn på nettside og få hint på hver ukjent ord med inn på nettside. >>
+  << Det kunne bli bedre med å ha inn kontaktnettside på prosjektet, få hint på hver ukjent ord med inn på nettside og få endring av språket på nettside >>
 
 - **Hva kunne lærerne gjort for å gjøre prosjektet bedre?**  
   << Jeg synes at alt var gjort veldige bra, oppgaven var strukturert og froklart veldige godt. Med andre ord alt var forstålige, og det er det viktigste>>
