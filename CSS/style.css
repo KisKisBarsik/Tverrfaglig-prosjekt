@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E1F5FE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Navbar starts here */
+
+header {
+    width: 100%;
+    background-color: #01579B;
+    color: white;
+    border-bottom: 4px solid #00335A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.websites {
+    margin: 30px 0px 30px 30px;
+}
+
+.websites a:not(.home) {
+    font-size: 31px;
+    text-decoration: none;
+    color: white;
+
+    padding: 20px 30px 20px 30px;
+    margin: 0px 5px 0px 5px;
+}
+
+.home {
+    background-color: #00335A;
+    font-size: 31px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    padding: 20px 30px 20px 30px;
+    margin: 0px 5px 0px 10px;
+}
+
+.websites a:hover {
+    background-color: #00335A;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+
+
+.line {
+    display: flex;
+    align-items: center;
+    margin: 0px 27px 0px 0px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 15px;
+
+    margin: 27px;
+    padding: 0px 0px 0px 5px;
+}
+
+.searchInput {
+    width: 350px;
+    background-color: #01579B;
+    font-size: 25px;
+    color: white;
+    border: none;
+    outline: none;
+
+    padding: 10px;
+}
+
+.searchInput::placeholder {
+    color: rgb(235, 235, 235);
+}
+
+
+
+.buttonSearch {
+    background-color: #01579B;
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    padding: 10px 15px 10px 10px;
+}
+
+.buttonSearch:hover {
+    background-color: #00335A;
+}
+
+.buttonImg {
+    width: 40px;
+}
+
+.authorIcon {
+    width: 65px;
+    border: 2px solid white;
+    border-radius: 45px;
+}
+
+/* Navbar ends here */
+
+
+/* Section starts here */
+
+section {
+    margin: 7.8% 0px 16.5% 0px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPart {
+    width: 1200px;
+}
+
+.title {
+    font-size: 40px;
+    color: #00335A;
+    margin: 0px 0px 9px 0px;
+}
+
+.mainText {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #00335A;
+    margin: 0px 0px 17px 0px;
+}
+
+.iconOfTheProject {
+    width: 400px;
+    margin: 0px 60px 0px 60px;
+}
+
+.smallGuide {
+    font-size: 24px;
+    line-height: 1.4;
+    color: #00335A;
+}
+
+/* Section ends here */
+
+
+/* Footer starts here */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #01579B;
+    border-top: 4px solid;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 0px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.row p {
+    margin-left: 25px;
+}
+
+.footerIcons {
+    width: 50px;
+}
+
+.telefonNum, .ePost, .gitHub {
+    font-size: 20px;
+    color: white;
+}
+
+p a {
+    color: white;
+}
+
+p a::after {
+    color: white;
+}
+
+
+
+.num2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.melding {
+    font-size: 20px;
+    color: white;
+    width: 700px;
+    margin: 10px 0px 10px 0px;
+}
+
+#textAreaMelding {
+    width: 680px;
+    height: 70px;
+    font-size: 20px;
+    color: #00335A;
+
+    scrollbar-width: none;
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #E1F5FE;
+
+    padding: 5px 10px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+#textAreaMelding::placeholder {
+    color: #145180;
+}
+
+.buttonSend {
+    width: 230px;
+    background-color: #00335A;
+    border: 2px solid #00335A;
+    border-radius: 5px;
+
+    font-size: 20px;
+    color: white;
+
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.buttonSend:hover {
+    background-color: #032844;
+    border: 2px solid #032844;
+}
+
+/* Footer ends here */
+
+@media screen and (max-width: 1880px) {
+
+    .websites {
+        margin: 30px 0px 30px 30px;
+    }
+
+    .websites a:not(.home) {
+        font-size: 24px;
+    }
+
+    .home {
+        background-color: #00335A;
+        font-size: 24px;
+    }
+
+
+
+    .searchInput {
+        width: 300px;
+
+        padding: 10px;
+    }
+
+    .searchInput::placeholder {
+        color: rgb(235, 235, 235);
+    }
+
+
+    
+    .iconOfTheProject {
+        width: 300px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .mainText {
+        font-size: 22px;
+    }
+
+    .smallGuide {
+        font-size: 22px;
+    }
+
+    
+
+    .buttonImg {
+        width: 35px;
+    }
+
+    .authorIcon {
+        width: 56px;
+    }
+
+
+
+    .footerIcons {
+        width: 42px;
+    }
+
+    .telefonNum, .ePost, .gitHub {
+        font-size: 18px;
+        color: white;
+    }
+
+
+    .melding {
+        font-size: 18px;
+        
+        margin: 10px 0px 10px 0px;
+    }
+
+    #textAreaMelding {
+        font-size: 18px;
+
+        padding: 5px 10px 5px 10px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #textAreaMelding::placeholder {
+        color: #145180;
+    }
+
+    .buttonSend {
+        width: 230px;
+
+        font-size: 20px;
+
+        padding: 5px 5px 5px 5px;
+        margin: 10px 0px 10px 0px;
+    }
+
+}
+
+@media screen and (max-width: 1702px) {
+    
+    .iconOfTheProject {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 1620px) {
+
+    .websites {
+        margin: 30px 0px 30px 30px;
+    }
+
+    .websites a:not(.home) {
+        font-size: 22px;
+    }
+
+    .home {
+        background-color: #00335A;
+        font-size: 22px;
+    }
+
+
+
+    .searchInput {
+        width: 250px;
+
+        padding: 10px;
+    }
+
+    .searchInput::placeholder {
+        color: rgb(235, 235, 235);
+    }
+
+
+    
+    .mainPart {
+        margin: 60px 120px 0px 120px;
+    }
+    
+    .iconOfTheProject {
+        display: none;
+    }
+
+    
+
+    .buttonImg {
+        width: 30px;
+    }
+
+    .authorIcon {
+        width: 52px;
+    }
+
+
+
+    .footerIcons {
+        width: 38px;
+    }
+
+    .telefonNum, .ePost, .gitHub {
+        font-size: 16px;
+        color: white;
+    }
+
+
+    .melding {
+        width: 530px;
+        font-size: 16px;
+        
+        margin: 10px 0px 10px 0px;
+    }
+
+    #textAreaMelding {
+        width: 510px;
+        font-size: 17px;
+
+        padding: 5px 10px 5px 10px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #textAreaMelding::placeholder {
+        color: #145180;
+    }
+
+    .buttonSend {
+        width: 230px;
+
+        font-size: 20px;
+
+        padding: 5px 5px 5px 5px;
+        margin: 10px 0px 10px 0px;
+    }
+
+}
+
+@media screen and (max-width: 1406px) {
+    
+    .hamburger {
+        display: block;
+        margin: 0px 40px 0px 40px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        margin: -3.5px auto;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        margin: -3.5px auto;
+    }
+
+    .websites {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: -110%;
+        top: 90px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #01579B;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+
+        margin: 0;
+        padding-bottom: 5px;
+
+        border-bottom: 4px solid #00335A;
+    }
+
+    .websites a {
+        margin: 16px 0;
+    }
+
+    .websites.active {
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width: 1204px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 804px) {
+
+    .websites a:not(.home) {
+        font-size: 18px;
+    }
+
+    .home {
+        font-size: 18px;
+    }
+
+    .searchInput {
+        font-size: 20px;
+    }
+
+    .mainPart {
+        margin: 100px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .mainText {
+        font-size: 20px;
+    }
+
+    .smallGuide {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 716px) {
+    
+    .searchInput {
+        font-size: 18px;
+    }
+
+
+
+    .mainPart {
+        margin: 100px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .mainText {
+        font-size: 18px;
+    }
+
+    .smallGuide {
+        font-size: 18px;
+    }
+
+
+
+    .footerIcons {
+        width: 30px;
+    }
+
+    .row p {
+        font-size: 14px;
+    }
+
+    .melding {
+        font-size: 14px;
+    }
+
+    #textAreaMelding {
+        font-size: 14px;
+    }
+
+    .buttonSend {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .websites a:not(.home) {
+        font-size: 16px;
+    }
+
+    .home {
+        font-size: 16px;
+    }
+
+    .authorIcon {
+        margin: 25px 0px 25px 0px;
+    }
+
+    .searchBar {
+        display: none;
+    }
+
+
+
+    .mainPart {
+        margin: 100px 50px 100px 50px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .mainText {
+        font-size: 16px;
+    }
+
+    .smallGuide {
+        font-size: 16px;
+    }
+
+
+
+    .footerIcons {
+        width: 30px;
+    }
+
+    .row p {
+        font-size: 14px;
+    }
+
+    .melding {
+        font-size: 14px;
+    }
+
+    #textAreaMelding {
+        font-size: 14px;
+    }
+
+    .buttonSend {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 572px) {
+    
+    .footerIcons {
+        width: 10px;
+        margin: 0px 0px 0px 8px;
+    }
+
+    .row p {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .melding {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    #textAreaMelding {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .buttonSend {
+        width: 170px;
+        font-size: 16px;
+    }
+
+}

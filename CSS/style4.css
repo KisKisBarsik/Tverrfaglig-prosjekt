@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E1F5FE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Navbar starts here */
+
+header {
+    width: 100%;
+    background-color: #01579B;
+    color: white;
+    border-bottom: 4px solid #00335A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.websites {
+    margin: 30px 0px 30px 20px;
+}
+
+.websites a:not(.home) {
+    font-size: 31px;
+    text-decoration: none;
+    color: white;
+
+    padding: 20px 30px 20px 30px;
+    margin: 0px 5px 0px 5px;
+}
+
+.home {
+    font-size: 31px;
+    text-decoration: none;
+    color: white;
+
+    padding: 20px 30px 20px 30px;
+    margin: 0px 5px 0px 5px;
+}
+
+.media {
+    background-color: #00335A;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.websites a:hover {
+    background-color: #00335A;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+
+
+.line {
+    display: flex;
+    align-items: center;
+    margin: 0px 27px 0px 0px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 15px;
+
+    margin: 27px;
+    padding: 0px 0px 0px 5px;
+}
+
+.searchInput {
+    width: 350px;
+    background-color: #01579B;
+    font-size: 25px;
+    color: white;
+    border: none;
+    outline: none;
+
+    padding: 10px;
+}
+
+.searchInput::placeholder {
+    color: rgb(235, 235, 235);
+}
+
+
+
+.buttonSearch {
+    background-color: #01579B;
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    padding: 10px 15px 10px 10px;
+}
+
+.buttonSearch:hover {
+    background-color: #00335A;
+}
+
+.buttonImg {
+    width: 40px;
+}
+
+.authorIcon {
+    width: 65px;
+    border: 3px solid white;
+    border-radius: 45px;
+}.line {
+    display: flex;
+    align-items: center;
+    margin: 0px 27px 0px 0px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 15px;
+
+    margin: 27px;
+    padding: 0px 0px 0px 5px;
+}
+
+.searchInput {
+    width: 350px;
+    background-color: #01579B;
+    font-size: 25px;
+    color: white;
+    border: none;
+    outline: none;
+
+    padding: 10px;
+}
+
+.searchInput::placeholder {
+    color: rgb(235, 235, 235);
+}
+
+
+
+.buttonSearch {
+    background-color: #01579B;
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    padding: 10px 15px 10px 10px;
+}
+
+.buttonSearch:hover {
+    background-color: #00335A;
+}
+
+.buttonImg {
+    width: 40px;
+}
+
+.authorIcon {
+    width: 65px;
+    border: 2px solid white;
+    border-radius: 45px;
+}
+
+/* Navbar ends here */
+
+
+/* Section starts here */
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 3.5% 0px 3.5% 0px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mainPartNum1 {
+    width: 900px;
+    margin: 20px 0px 40px 0px;
+}
+
+.titleNum1 {
+    font-size: 36px;
+    color: #00335A;
+    margin: 0px 0px 9px 0px;
+}
+
+.mainTextNum1 {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #00335A;
+    margin: 0px 0px 17px 0px;
+}
+
+.mainPartNum2, .mainPartNum3, .mainPartNum4, .mainPartNum5, .mainPartNum6 {
+    width: 900px;
+
+    margin: 60px 0px 60px 0px;
+}
+
+
+
+.imageOverAnother {
+    position: relative;
+    /* height: 500px; */
+    margin-bottom: 530px;
+}
+
+.imageOverAnother img {
+    position: absolute;
+    /* height: 500px; */
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.imageOverAnother:hover .num2 {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.iNum1 {
+    margin-bottom: 450px;
+}
+
+.iNum2 {
+    margin-bottom: 500px;
+}
+
+
+
+.mainPictures, .mainVideo {
+    width: 900px;
+    border-top: 4px solid #00335A;
+    border-radius: 5px;
+}
+
+.titleNum2 {
+    font-size: 30px;
+    color: #00335A;
+    margin: 25px 0px 9px 0px;
+}
+
+.mainTextNum2 {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #00335A;
+    margin: 10px 0px 17px 0px;
+}
+
+/* Section finishes here */
+
+@media screen and (max-width: 1880px) {
+
+    .websites {
+        margin: 30px 0px 30px 30px;
+    }
+
+    .websites a:not(.home) {
+        font-size: 24px;
+    }
+
+    .home {
+        font-size: 24px;
+    }
+
+
+
+    .searchInput {
+        width: 300px;
+
+        padding: 10px;
+    }
+
+    .searchInput::placeholder {
+        color: rgb(235, 235, 235);
+    }
+
+
+    
+    .iconOfTheProject {
+        width: 300px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .mainText {
+        font-size: 22px;
+    }
+
+    .smallGuide {
+        font-size: 22px;
+    }
+
+    
+
+    .buttonImg {
+        width: 35px;
+    }
+
+    .authorIcon {
+        width: 56px;
+    }
+    
+    
+
+    .titleNum1, .titleNum2 {
+        font-size: 30px;
+    }
+
+    .mainTextNum1, .mainTextNum2 {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 1702px) {
+    
+    .iconOfTheProject {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 1620px) {
+
+    .websites {
+        margin: 30px 0px 30px 30px;
+    }
+
+    .websites a:not(.home) {
+        font-size: 22px;
+    }
+
+    .home {
+        font-size: 22px;
+    }
+
+
+
+    .searchInput {
+        width: 250px;
+        font-size: 20px;
+
+        padding: 10px;
+    }
+
+    .searchInput::placeholder {
+        color: rgb(235, 235, 235);
+    }
+
+
+    
+    .mainPart {
+        margin: 60px 120px 0px 120px;
+    }
+    
+    .iconOfTheProject {
+        display: none;
+    }
+
+    
+
+    .buttonImg {
+        width: 30px;
+    }
+
+    .authorIcon {
+        width: 52px;
+    }
+
+
+
+    .titleNum1, .titleNum2 {
+        font-size: 26px;
+    }
+
+    .mainTextNum1, .mainTextNum2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1406px) {
+    
+    .hamburger {
+        display: block;
+        margin: 0px 40px 0px 40px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        margin: -3.5px auto;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        margin: -3.5px auto;
+    }
+
+    .websites {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: -110%;
+        top: 90px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #01579B;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+
+        margin: 0;
+        padding-bottom: 5px;
+
+        border-bottom: 4px solid #00335A;
+    }
+
+    .websites a {
+        margin: 16px 0;
+    }
+
+    .websites.active {
+        left: 0;
+    }
+
+    .mainPartNum1, .mainPartNum2, .mainPartNum3, .mainPartNum4, .mainPartNum5, .mainPartNum6, .mainPartNum7, .mainPartNum8, .mainPartNum9 {
+        width: 700px;
+    }
+
+    .mainPictures {
+        width: 700px;
+    }
+
+    .mainVideo {
+        width: 700px;
+    }
+
+    .imageOverAnother {
+        margin-bottom: 350px;
+    }
+
+    .iNum2 {
+        margin-bottom: 385px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .mainPartNum1, .mainPartNum2, .mainPartNum3, .mainPartNum4, .mainPartNum5, .mainPartNum6, .mainPartNum7, .mainPartNum8, .mainPartNum9 {
+        width: 500px;
+    }
+
+    .mainPictures {
+        width: 500px;
+    }
+
+    .mainVideo {
+        width: 500px;
+    }
+
+    .titleNum1, .titleNum2 {
+        font-size: 24px;
+    }
+
+    .mainTextNum1, .mainTextNum2 {
+        font-size: 18px;
+    }
+
+    .imageOverAnother {
+        margin-bottom: 260px;
+    }
+
+    .iNum2 {
+        margin-bottom: 285px;
+    }
+    
+}
+
+@media screen and (max-width: 804px) {
+
+    .websites a:not(.home) {
+        font-size: 18px;
+    }
+
+    .home {
+        font-size: 18px;
+    }
+
+    .searchInput {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 716px) {
+    
+    .searchInput {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 610px) {
+
+    .websites a:not(.home) {
+        font-size: 16px;
+    }
+
+    .home {
+        font-size: 16px;
+    }
+
+    .authorIcon {
+        margin: 25px 0px 25px 0px;
+    }
+
+    .searchBar {
+        display: none;
+    }
+
+    .mainPartNum1, .mainPartNum2, .mainPartNum3, .mainPartNum4, .mainPartNum5, .mainPartNum6, .mainPartNum7, .mainPartNum8, .mainPartNum9 {
+        width: 370px;
+    }
+
+    .mainPictures {
+        width: 370px;
+    }
+
+    .mainVideo {
+        width: 370px;
+    }
+
+    .titleNum1, .titleNum2 {
+        font-size: 24px;
+    }
+
+    .mainTextNum1, .mainTextNum2 {
+        font-size: 18px;
+    }
+
+    .imageOverAnother {
+        margin-bottom: 200px;
+    }
+
+    .iNum2 {
+        margin-bottom: 220px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+    .mainPartNum1, .mainPartNum2, .mainPartNum3, .mainPartNum4, .mainPartNum5, .mainPartNum6, .mainPartNum7, .mainPartNum8, .mainPartNum9 {
+        width: 280px;
+    }
+
+    .mainPictures {
+        width: 280px;
+    }
+
+    .mainVideo {
+        width: 280px;
+    }
+
+    .titleNum1, .titleNum2 {
+        font-size: 20px;
+    }
+
+    .mainTextNum1, .mainTextNum2 {
+        font-size: 16px;
+    }
+
+    .imageOverAnother {
+        margin-bottom: 155px;
+    }
+
+    .iNum2 {
+        margin-bottom: 170px;
+    }
+
+}
