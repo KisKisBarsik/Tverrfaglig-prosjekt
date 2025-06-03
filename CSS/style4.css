@@ -284,6 +284,36 @@ section {
     margin: 10px 0px 17px 0px;
 }
 
+
+
+.rowArrows {
+    display: flex;
+}
+
+.arrow {
+    width: 30px;
+}
+
+.nextPageButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    background-color: #01579B;
+    border: 3px solid #01579B;
+    border-radius: 8px;
+
+    padding: 15px 5px 15px 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+.nextPageButton:hover {
+    background-color: #032844;
+    border: 3px solid #032844;
+}
+
+
 /* Section finishes here */
 
 @media screen and (max-width: 1880px) {
@@ -417,6 +447,17 @@ section {
         font-size: 20px;
     }
 
+
+
+    .arrow {
+        width: 25px;
+    }
+
+    .nextPageButton {
+        padding: 12px 0px 12px 0px;
+        margin: 10px 10px 10px 10px;
+    }
+
 }
 
 @media screen and (max-width: 1406px) {
@@ -518,6 +559,17 @@ section {
     .iNum2 {
         margin-bottom: 285px;
     }
+
+
+
+    .arrow {
+        width: 20px;
+    }
+
+    .nextPageButton {
+        padding: 12px 0px 12px 0px;
+        margin: 10px 10px 10px 10px;
+    }
     
 }
 
@@ -589,6 +641,17 @@ section {
 
     .iNum2 {
         margin-bottom: 220px;
+    }
+
+
+
+    .arrow {
+        width: 15px;
+    }
+
+    .nextPageButton {
+        padding: 14px 0px 14px 0px;
+        margin: 10px 10px 10px 10px;
     }
     
 }
