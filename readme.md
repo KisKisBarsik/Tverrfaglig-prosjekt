@@ -9,6 +9,19 @@ Dette er en nettside laget som en del av en tverrfaglig prosjekt i 1IMA. Nettsid
 
 ---
 
+## 🗓️ Arbeidsdager og fremdrift
+
+| Dato       | Ukedag   | Hva jeg jobbet med                                     
+|------------|----------|---------------------------------------------------------------------------------------------------------|
+| 23. mai    | Fredag   | << I dag jeg har laget planen til prosjekt, etter jeg har laget planen jeg valgt farger for nettside og til sist jeg har laget struktur til alle nødvendige nettsider >>
+| 26. mai    | Mandag   | << I dag jeg har >>   
+| 28. mai    | Onsdag   | << I dag jeg har >>  
+| 30. mai    | Fredag   | << I dag jeg har >>
+| 2. juni    | Mandag   | << I dag jeg har >>
+| 4. juni    | Onsdag   | << I dag jeg har >>
+
+---
+
 ## 📁 Innhold på nettsiden
 
 - **Introduksjonsside:** << Forside handler litt om tverrfaglig prosjektet, om hva skal den innholde og små instruksjoner som hjelper brukere med å navigere fritt rundt på nettsidet >>
