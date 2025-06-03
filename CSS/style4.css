@@ -197,7 +197,6 @@ nav {
 section {
     display: flex;
     justify-content: center;
-    align-items: center;
 
     margin: 3.5% 0px 3.5% 0px;
 }
@@ -207,6 +206,39 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    position: static;
+}
+
+#arrowTopButton {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+
+    width: 60px;
+    height: 60px;
+    background-color: #01579B;
+
+    border: none;
+    border-radius: 10px;
+
+    right: 30px;
+    bottom: 30px;
+
+    transition: opacity 0.3s;
+    z-index: 1000;
+
+    padding: 4px;
+}
+
+#arrowTopButton:hover {
+    background-color: #00335A;
+}
+
+.arrowTop {
+    width: 30px;
 }
 
 
@@ -288,6 +320,7 @@ section {
 
 .rowArrows {
     display: flex;
+    margin-bottom: 60px;
 }
 
 .arrow {
@@ -309,8 +342,8 @@ section {
 }
 
 .nextPageButton:hover {
-    background-color: #032844;
-    border: 3px solid #032844;
+    background-color: #00335A;
+    border: 3px solid #00335A;
 }
 
 
@@ -343,10 +376,19 @@ section {
     }
 
 
-    
-    .iconOfTheProject {
-        width: 300px;
+
+    #arrowTopButton {
+        width: 60px;
+        height: 60px;
+
+        padding: 4px;
     }
+
+    .arrowTop {
+        width: 30px;
+    }
+    
+
 
     .title {
         font-size: 36px;
@@ -418,13 +460,16 @@ section {
     }
 
 
-    
-    .mainPart {
-        margin: 60px 120px 0px 120px;
+
+    #arrowTopButton {
+        width: 52px;
+        height: 52px;
+
+        padding: 4px;
     }
-    
-    .iconOfTheProject {
-        display: none;
+
+    .arrowTop {
+        width: 28px;
     }
 
     
@@ -532,6 +577,19 @@ section {
 
 @media screen and (max-width: 1000px) {
 
+    #arrowTopButton {
+        width: 45px;
+        height: 45px;
+
+        padding: 4px;
+    }
+
+    .arrowTop {
+        width: 25px;
+    }
+
+
+
     .mainPartNum1, .mainPartNum2, .mainPartNum3, .mainPartNum4, .mainPartNum5, .mainPartNum6, .mainPartNum7, .mainPartNum8, .mainPartNum9 {
         width: 500px;
     }
@@ -586,6 +644,22 @@ section {
     .searchInput {
         font-size: 20px;
     }
+
+
+
+    #arrowTopButton {
+        width: 35px;
+        height: 35px;
+
+        right: 15px;
+        bottom: 25px;
+
+        padding: 4px;
+    }
+
+    .arrowTop {
+        width: 20px;
+    }
     
 }
 
@@ -593,6 +667,10 @@ section {
     
     .searchInput {
         font-size: 18px;
+    }
+
+    #arrowTopButton {
+        display: none;
     }
 
 }
