@@ -13,8 +13,8 @@ Dette er en nettside laget som en del av en tverrfaglig prosjekt i 1IMA. Nettsid
 
 | Dato       | Ukedag   | Hva jeg jobbet med                                     | Ferdigstilt/Innhold             |
 |------------|----------|--------------------------------------------------------|----------------------------------|
-| 23. mai    | Fredag   | << I dag jeg har laget planen til prosjekt, etter jeg har laget planen jeg valgt farger for nettside og til sist jeg har laget struktur til alle nødvendige nettsider >>              | << Det jeg har gjort ferdig i dag: laget planen, valgt farger for nettside, laget strukturen for nettsider og gjort ferdige forside >> |
-| 26. mai    | Mandag   | << I dag jeg har samlet et stor del av det jeg har lært i teknologi forståelse og programmering, fylt opp to allerede laget nettsider og settet in bilder som jeg har valgt.>>                      | << Det jeg har gjort ferdige i dag: laget to presentasjonsider>> |
+| 23. mai    | Fredag   | << I dag jeg har laget planen til prosjekt, etter jeg har laget planen jeg valgt farger for nettside og til sist jeg har laget struktur til alle nødvendige nettsider >>              | << Det jeg har gjort ferdig i dag: laget planen, valgt farger for nettside, laget strukturen for nettsider >> |
+| 26. mai    | Mandag   | << I dag jeg har samlet et stor del av det jeg har lært i teknologi forståelse og programmering, fylt opp to allerede laget nettsider og settet in bilder som jeg har valgt.>>                      | << Det jeg har gjort ferdige i dag: laget to presentasjonsider og gjort ferdige forside >> |
 | 28. mai    | Onsdag   | <<  >>                          | <<  >> |
 | 30. mai    | Fredag   | <<  >>                                 | << F.eks. slideshow, media query >> |
 | 2. juni    | Mandag   | << Hva jobbet du med? >>                               | << Ferdig med egenvurdering >> |
