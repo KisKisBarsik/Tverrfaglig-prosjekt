@@ -184,8 +184,6 @@ section {
         color: rgb(235, 235, 235);
     }
 
-    
-
     .buttonImg {
         width: 35px;
     }
@@ -228,8 +226,6 @@ section {
     .searchInput::placeholder {
         color: rgb(235, 235, 235);
     }
-
-    
 
     .buttonImg {
         width: 30px;
@@ -318,8 +314,6 @@ section {
     .searchInput {
         font-size: 18px;
     }
-
-
 
     .mainTextNum1 {
         font-size: 24px;

@@ -217,13 +217,11 @@ section {
 
 .imageOverAnother {
     position: relative;
-    /* height: 500px; */
     margin-bottom: 495px;
 }
 
 .imageOverAnother img {
     position: absolute;
-    /* height: 500px; */
     object-fit: cover;
     transition: opacity 0.3s ease;
 }
@@ -314,6 +312,14 @@ section {
 
     .searchInput::placeholder {
         color: rgb(235, 235, 235);
+    }    
+
+    .buttonImg {
+        width: 35px;
+    }
+
+    .authorIcon {
+        width: 56px;
     }
 
 
@@ -327,34 +333,6 @@ section {
 
     .arrowTop {
         width: 30px;
-    }
-
-
-    
-    .iconOfTheProject {
-        width: 300px;
-    }
-
-    .title {
-        font-size: 36px;
-    }
-
-    .mainText {
-        font-size: 22px;
-    }
-
-    .smallGuide {
-        font-size: 22px;
-    }
-
-    
-
-    .buttonImg {
-        width: 35px;
-    }
-
-    .authorIcon {
-        width: 56px;
     }
     
     
@@ -396,6 +374,14 @@ section {
         color: rgb(235, 235, 235);
     }
 
+    .buttonImg {
+        width: 30px;
+    }
+
+    .authorIcon {
+        width: 52px;
+    }
+
 
 
     #arrowTopButton {
@@ -407,16 +393,6 @@ section {
 
     .arrowTop {
         width: 28px;
-    }
-
-    
-
-    .buttonImg {
-        width: 30px;
-    }
-
-    .authorIcon {
-        width: 52px;
     }
 
 

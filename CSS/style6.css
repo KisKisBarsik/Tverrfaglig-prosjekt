@@ -239,8 +239,6 @@ p a::after {
         color: rgb(235, 235, 235);
     }
 
-    
-
     .buttonImg {
         width: 35px;
     }
@@ -295,8 +293,6 @@ p a::after {
     .searchInput::placeholder {
         color: rgb(235, 235, 235);
     }
-
-    
 
     .buttonImg {
         width: 30px;
@@ -391,6 +387,13 @@ p a::after {
         flex-direction: column;
     }
 
+    .authorImage2 {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin: 50px 70px 20px 60px;
+    }
+
     .mainTextNum1 {
         font-size: 20px;
         margin: 50px 0px 0px 80px;
@@ -404,13 +407,6 @@ p a::after {
     .authorImage {
         display: none;
     }
-
-    .authorImage2 {
-        display: block;
-        width: 300px;
-        height: 300px;
-        margin: 50px 70px 20px 60px;
-    }
     
 }
 
@@ -418,6 +414,13 @@ p a::after {
 
     .mainPartNum1 {
         width: 700px;
+    }
+
+    .authorImage2 {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin: 50px 70px 20px 60px;
     }
 
     .mainTextNum1 {
@@ -428,13 +431,6 @@ p a::after {
     .mainTextNum2 {
         font-size: 18px;
         margin: 5px 80px 0px 80px;
-    }
-
-    .authorImage2 {
-        display: block;
-        width: 300px;
-        height: 300px;
-        margin: 50px 70px 20px 60px;
     }
     
 }
@@ -459,6 +455,13 @@ p a::after {
         width: 600px;
     }
 
+    .authorImage2 {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin: 50px 70px 20px 60px;
+    }
+
     .mainTextNum1 {
         font-size: 20px;
         margin: 50px 0px 0px 80px;
@@ -471,13 +474,6 @@ p a::after {
 
     .authorImage {
         display: none;
-    }
-
-    .authorImage2 {
-        display: block;
-        width: 300px;
-        height: 300px;
-        margin: 50px 70px 20px 60px;
     }
     
 }
@@ -494,6 +490,13 @@ p a::after {
         width: 500px;
     }
 
+    .authorImage2 {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin: 50px 70px 20px 60px;
+    }
+
     .mainTextNum1 {
         font-size: 18px;
         margin: 50px 0px 0px 50px;
@@ -502,13 +505,6 @@ p a::after {
     .mainTextNum2 {
         font-size: 16px;
         margin: 5px 50px 0px 50px;
-    }
-
-    .authorImage2 {
-        display: block;
-        width: 300px;
-        height: 300px;
-        margin: 50px 70px 20px 60px;
     }
 
 }
@@ -539,6 +535,13 @@ p a::after {
         width: 400px;
     }
 
+    .authorImage2 {
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: 40px 20px 20px 30px;
+    }
+
     .mainTextNum1 {
         font-size: 18px;
         margin: 30px 0px 0px 30px;
@@ -549,19 +552,19 @@ p a::after {
         margin: 5px 30px 0px 30px;
     }
 
-    .authorImage2 {
-        display: block;
-        width: 200px;
-        height: 200px;
-        margin: 40px 20px 20px 30px;
-    }
-
 }
 
 @media screen and (max-width: 450px) {
 
     .mainPartNum1 {
         width: 300px;
+    }
+
+    .authorImage2 {
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: 40px 20px 20px 30px;
     }
 
     .mainTextNum1 {
@@ -572,13 +575,6 @@ p a::after {
     .mainTextNum2 {
         font-size: 14px;
         margin: 5px 30px 0px 30px;
-    }
-
-    .authorImage2 {
-        display: block;
-        width: 200px;
-        height: 200px;
-        margin: 40px 20px 20px 30px;
     }
     
 }

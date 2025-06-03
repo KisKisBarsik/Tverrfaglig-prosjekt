@@ -315,6 +315,14 @@ section {
         color: rgb(235, 235, 235);
     }
 
+    .buttonImg {
+        width: 35px;
+    }
+
+    .authorIcon {
+        width: 56px;
+    }
+
 
 
     #arrowTopButton {
@@ -326,30 +334,6 @@ section {
 
     .arrowTop {
         width: 30px;
-    }
-
-
-
-    .title {
-        font-size: 36px;
-    }
-
-    .mainText {
-        font-size: 22px;
-    }
-
-    .smallGuide {
-        font-size: 22px;
-    }
-
-    
-
-    .buttonImg {
-        width: 35px;
-    }
-
-    .authorIcon {
-        width: 56px;
     }
     
     
@@ -391,6 +375,14 @@ section {
         color: rgb(235, 235, 235);
     }
 
+    .buttonImg {
+        width: 30px;
+    }
+
+    .authorIcon {
+        width: 52px;
+    }
+
 
 
     #arrowTopButton {
@@ -402,16 +394,6 @@ section {
 
     .arrowTop {
         width: 28px;
-    }
-    
-    
-
-    .buttonImg {
-        width: 30px;
-    }
-
-    .authorIcon {
-        width: 52px;
     }
 
 

@@ -133,7 +133,9 @@ nav {
     width: 65px;
     border: 3px solid white;
     border-radius: 45px;
-}.line {
+}
+
+.line {
     display: flex;
     align-items: center;
     margin: 0px 27px 0px 0px;
@@ -271,13 +273,11 @@ section {
 
 .imageOverAnother {
     position: relative;
-    /* height: 500px; */
     margin-bottom: 530px;
 }
 
 .imageOverAnother img {
     position: absolute;
-    /* height: 500px; */
     object-fit: cover;
     transition: opacity 0.3s ease;
 }
@@ -314,6 +314,14 @@ section {
     line-height: 1.5;
     color: #00335A;
     margin: 10px 0px 17px 0px;
+}
+
+span {
+    text-decoration: underline 2px;
+}
+
+a {
+    text-decoration: underline 2px;
 }
 
 
@@ -375,6 +383,14 @@ section {
         color: rgb(235, 235, 235);
     }
 
+    .buttonImg {
+        width: 35px;
+    }
+
+    .authorIcon {
+        width: 56px;
+    }
+
 
 
     #arrowTopButton {
@@ -388,30 +404,6 @@ section {
         width: 30px;
     }
     
-
-
-    .title {
-        font-size: 36px;
-    }
-
-    .mainText {
-        font-size: 22px;
-    }
-
-    .smallGuide {
-        font-size: 22px;
-    }
-
-    
-
-    .buttonImg {
-        width: 35px;
-    }
-
-    .authorIcon {
-        width: 56px;
-    }
-    
     
 
     .titleNum1, .titleNum2 {
@@ -420,14 +412,6 @@ section {
 
     .mainTextNum1, .mainTextNum2 {
         font-size: 22px;
-    }
-
-}
-
-@media screen and (max-width: 1702px) {
-    
-    .iconOfTheProject {
-        width: 250px;
     }
 
 }
@@ -459,6 +443,14 @@ section {
         color: rgb(235, 235, 235);
     }
 
+    .buttonImg {
+        width: 30px;
+    }
+
+    .authorIcon {
+        width: 52px;
+    }
+
 
 
     #arrowTopButton {
@@ -470,16 +462,6 @@ section {
 
     .arrowTop {
         width: 28px;
-    }
-
-    
-
-    .buttonImg {
-        width: 30px;
-    }
-
-    .authorIcon {
-        width: 52px;
     }
 
 
