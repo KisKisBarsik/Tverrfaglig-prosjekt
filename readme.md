@@ -17,7 +17,7 @@ Dette er en nettside laget som en del av en tverrfaglig prosjekt i 1IMA. Nettsid
 | 26. mai    | Mandag   | << I dag jeg har samlet et stor del av det jeg har lært i teknologi forståelse og programmering, fylt opp to allerede laget nettsider og settet in bilder som jeg har valgt.>>                      | << Det jeg har gjort ferdige i dag: laget to presentasjonsider og gjort ferdige forside >> |
 | 28. mai    | Onsdag   | << I dag jeg har samlet et stor del av det jeg har lært i media og YFF, fylt opp to allerede laget nettsider og settet in bilder som jeg har valgt. >>                          | << Det jeg har gjort ferdige i dag: laget to presentasjonsider til >> |
 | 30. mai    | Fredag   | << I dag jeg har laget et nettside til om min biografi og lagt til multi bildet system >>  | << Det jeg har gjort ferdige i dag: laget biografi nettside og laget multi bildet system >> |
-| 2. juni    | Mandag   | << Hva jobbet du med? >>                               | << Ferdig med egenvurdering >> |
+| 2. juni    | Mandag   | << I dag jeg har gjort media query for alle nettsider og fikset flere bugs med multi bildet system >>                               | << Det jeg har gjort ferdige i dag: media query og fikset bugs >> |
 | 4. juni    | Onsdag   | << Hva gjorde du siste dagen? >>                       | << Kodeopprydding + README >> |
 
 ---
