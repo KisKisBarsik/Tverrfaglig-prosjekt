@@ -51,10 +51,8 @@ nav {
     margin: 0px 5px 0px 10px;
 }
 
-.websites a:hover {
-    background-color: #00335A;
-    border: 2px solid white;
-    border-radius: 5px;
+.bio {
+    display: none;
 }
 
 
@@ -513,6 +511,10 @@ p a::after {
 
     .websites.active {
         left: 0;
+    }
+
+    .bio {
+        display: block;
     }
 
 }

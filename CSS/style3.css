@@ -39,6 +39,12 @@ nav {
     margin: 0px 5px 0px 5px;
 }
 
+.websites a:hover {
+    background-color: #00335A;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
 .home {
     font-size: 31px;
     text-decoration: none;
@@ -54,10 +60,8 @@ nav {
     border-radius: 5px;
 }
 
-.websites a:hover {
-    background-color: #00335A;
-    border: 2px solid white;
-    border-radius: 5px;
+.bio {
+    display: none;
 }
 
 
@@ -465,6 +469,12 @@ section {
     .websites.active {
         left: 0;
     }
+
+    .bio {
+        display: block;
+    }
+
+
 
     .mainPartNum1, .mainPartNum2, .mainPartNum3, .mainPartNum4, .mainPartNum5, .mainPartNum6, .mainPartNum7, .mainPartNum8, .mainPartNum9 {
         width: 700px;
