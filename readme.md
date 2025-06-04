@@ -18,7 +18,7 @@ Dette er en nettside laget som en del av en tverrfaglig prosjekt i 1IMA. Nettsid
 | 28. mai    | Onsdag   | << I dag jeg har samlet et stor del av det jeg har lært i media og YFF, fylt opp to allerede laget nettsider og settet in bilder som jeg har valgt. >>                          | << Det jeg har gjort ferdige i dag er: laget to presentasjonsider til >> |
 | 30. mai    | Fredag   | << I dag jeg har laget et nettside til om min biografi og lagt til multi bildet system >>  | << Det jeg har gjort ferdige i dag er: laget biografi nettside og laget multi bildet system >> |
 | 2. juni    | Mandag   | << I dag jeg har gjort media query for alle nettsider og fikset flere bugs med multi bildet system >>                               | << Det jeg har gjort ferdige i dag er: media query og fikset bugs >> |
-| 4. juni    | Onsdag   | <<  >>                       | <<  >> |
+| 4. juni    | Onsdag   | << I dag jeg har gjort knapper nederst på presentasjonsider til å kunne komme på en annet presentasjonside og piler opp på hver presentasjonside for å kunne komme opp hvis du allerede scrollet langt ned. >>                       | << Det jeg har gjort ferdige i dag er: piler til høyre og venstre i bunnen av nettside og piler opp >> |
 
 ---
 
