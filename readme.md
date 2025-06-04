@@ -54,7 +54,7 @@ Dette er en nettside laget som en del av en tverrfaglig prosjekt i 1IMA. Nettsid
 ## 🧠 Egenvurdering
 
 - **Hvordan har innsatsen min vært?**  
-  << Jeg har brukt alle fag timer uten å miste det eneste minutt, og til leg jobbet hjemme ca. 6 timer >>
+  << Jeg har brukt alle fag timer uten å miste det eneste minutt, og til leg jobbet hjemme ca. 10 timer >>
 
 - **Hva er jeg fornøyd med?**  
   << Jeg er veldige fornøyd med design på presentasjonsider, søk systemet og biografinettside >>
