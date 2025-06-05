@@ -39,6 +39,12 @@ nav {
     margin: 0px 5px 0px 5px;
 }
 
+.websites a:hover {
+    background-color: #00335A;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
 .home {
     background-color: #00335A;
     font-size: 31px;
